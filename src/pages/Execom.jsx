@@ -8,7 +8,6 @@ import {
   culturalSecretaries,
   generalSecretaries,
   headTeams,
-  ishaBhatti,
   hod,
   principal,
   president,
@@ -36,9 +35,6 @@ export default function Execom() {
 
         <div className="mt-16">
           <PresidentCard member={president} />
-        </div>
-        <div className="mt-14 md:mt-16">
-          <PresidentCard member={ishaBhatti} size="md" />
         </div>
 
         <section className="mt-24">

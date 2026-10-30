@@ -1,6 +1,5 @@
 import imgArshia from "../assets/images/members/arshia.jpg";
 import imgFaizaan from "../assets/images/members/faizaan.jpg";
-import imgIsha from "../assets/images/members/isha.jpg";
 import imgMoksha from "../assets/images/members/moksha.jpg";
 import imgNishchay from "../assets/images/legacy/nishchay.jpg";
 import imgRitesh from "../assets/images/members/ritesh.jpg";
@@ -26,7 +25,6 @@ export const legacy = [
   {
     year: "2026-27",
     presidents: [person("Faizaan Alam", imgFaizaan)],
-    coPresidents: [person("Isha Bhatti", imgIsha)],
     vicePresidents: [
       person("Ritesh", imgRitesh),
       person("Arshia", imgArshia),

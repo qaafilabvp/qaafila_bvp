@@ -2,7 +2,6 @@ import {
   culturalSecretaries,
   generalSecretaries,
   headTeams,
-  ishaBhatti,
   president,
   vicePresidents,
 } from "./members";
@@ -34,7 +33,6 @@ const selectedHeads = headTeams
  */
 export const results = [
   toResult(president),
-  toResult(ishaBhatti),
   ...vicePresidents.map((member) => toResult(member)),
   ...culturalSecretaries.map((member) => toResult(member)),
   ...generalSecretaries.map((member) => toResult(member)),

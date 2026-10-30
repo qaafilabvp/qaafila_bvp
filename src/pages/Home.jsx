@@ -14,7 +14,6 @@ import SectionHeading from "../components/ui/SectionHeading";
 import Button from "../components/ui/Button";
 import {
   president,
-  ishaBhatti,
   namedCoreCommittee,
   hod,
   principal,
@@ -63,9 +62,6 @@ export default function Home() {
           </div>
           <div className="mt-16">
             <PresidentCard member={president} />
-          </div>
-          <div className="mt-14 md:mt-16">
-            <PresidentCard member={ishaBhatti} size="md" />
           </div>
           <div className="mt-20">
             <p className="kicker mb-10">The rest of the table</p>

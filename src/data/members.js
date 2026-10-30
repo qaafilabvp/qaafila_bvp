@@ -7,7 +7,6 @@ import imgBhuvi from "../assets/images/members/bhuvi-2.jpg";
 import imgFarhan from "../assets/images/members/farhan.jpg";
 import imgFaizaan from "../assets/images/members/faizaan.jpg";
 import imgHarshtej from "../assets/images/members/harshtej-2.jpg";
-import imgIsha from "../assets/images/members/isha.jpg";
 import imgMoksha from "../assets/images/members/moksha.jpg";
 import imgPaarth from "../assets/images/members/paarth.jpg";
 import imgPavitra from "../assets/images/members/pavitra.jpg";
@@ -53,13 +52,6 @@ export const president = seat(
   "President",
   "",
   imgFaizaan,
-);
-export const ishaBhatti = seat(
-  "isha-bhatti",
-  "Isha Bhatti",
-  "Co-President",
-  "",
-  imgIsha,
 );
 export const vicePresidents = [
   seat("vp-ritesh", "Ritesh", "Vice President", "", imgRitesh),
@@ -161,14 +153,13 @@ export const headTeams = [
 export const heads = headTeams.flatMap((team) => team.members);
 export const executiveCommittee = [
   president,
-  ishaBhatti,
   ...vicePresidents,
   ...culturalSecretaries,
   ...generalSecretaries,
   ...jointSecretaries,
 ];
 export const executives = [];
-export const featuredMemberIds = ["president", "isha-bhatti"];
+export const featuredMemberIds = ["president"];
 export const namedCoreCommittee = [
   ...vicePresidents,
   ...culturalSecretaries,
