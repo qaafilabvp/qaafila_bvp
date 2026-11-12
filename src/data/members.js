@@ -1,9 +1,7 @@
-import imgAagam from "../assets/images/members/aagam.jpg";
 import imgAarush from "../assets/images/members/aarush.jpg";
 import imgAbdul from "../assets/images/members/abdul.jpg";
 import imgAnika from "../assets/images/members/anika.jpg";
 import imgArshia from "../assets/images/members/arshia.jpg";
-import imgBhuvi from "../assets/images/members/bhuvi-2.jpg";
 import imgFarhan from "../assets/images/members/farhan.jpg";
 import imgFaizaan from "../assets/images/members/faizaan.jpg";
 import imgHarshtej from "../assets/images/members/harshtej-2.jpg";
@@ -90,18 +88,23 @@ export const headTeams = [
     title: "SM and Publicity",
     members: [
       seat("head-sm-ritvik", "Ritvik", "Head", "SM and Publicity", imgRitvik),
-      seat("head-sm-farhan", "Farhan", "Head", "SM and Publicity", imgFarhan),
+      seat(
+        "head-sm-farhan",
+        "Farhan Ali Khan",
+        "Head",
+        "SM and Publicity",
+        imgFarhan,
+      ),
     ],
   },
   {
     title: "Content and Documentation",
     members: [
       seat(
-        "head-content-aagam",
-        "Aagam",
+        "head-content-placeholder",
+        "",
         "Head",
         "Content and Documentation",
-        imgAagam,
       ),
       seat(
         "head-content-vanshika-dhand",
@@ -121,7 +124,13 @@ export const headTeams = [
         "Event Management",
         imgVanshikaGoel,
       ),
-      seat("head-events-bhuvi", "Bhuvi", "Head", "Event Management", imgBhuvi),
+      seat(
+        "head-events-farhan",
+        "Farhan Ali Khan",
+        "Head",
+        "Event Management",
+        imgFarhan,
+      ),
     ],
   },
   {
