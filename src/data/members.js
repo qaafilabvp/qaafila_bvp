@@ -88,13 +88,7 @@ export const headTeams = [
     title: "SM and Publicity",
     members: [
       seat("head-sm-ritvik", "Ritvik", "Head", "SM and Publicity", imgRitvik),
-      seat(
-        "head-sm-farhan",
-        "Farhan Ali Khan",
-        "Head",
-        "SM and Publicity",
-        imgFarhan,
-      ),
+      seat("head-sm-kavya", "Kavya Soni", "Head", "SM and Publicity"),
     ],
   },
   {
